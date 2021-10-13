@@ -1,0 +1,362 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFFFFF;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    background: #0C4414;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+
+.shopnow-btn{
+    background: #1E9A2D;
+    border-radius: 6px;
+    width: 154px;
+    height: 51px;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+.nav-item{
+    margin-left: 22px;
+}
+
+/* hero section */
+.hero{
+    height: 85vh;
+    background-image: linear-gradient(
+        to right bottom,
+         rgba(000, 000, 000, 0.5),
+         rgba(000, 000, 000, 0.5)) 
+         ,url(../img/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content{
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    color: #FFFFFF;
+    line-height: 62px;
+    font-weight: 600;
+    font-size: 48px;
+    max-width: 692px;
+}
+
+.hero-content p{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 36px;
+    max-width: 480px;
+    font-weight: 400;
+}
+
+.hero-icon{
+    margin-top: 50px;
+}
+
+.hero-location{
+    background: #EED8CF;
+    position: relative;
+    top: -25px;
+    /* padding: 10px 70px; */
+    display: flex;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.patners{
+    margin-top: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 100px;
+    margin-bottom: 100px;
+}
+
+.patners-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.you-seek-title{
+
+}
+
+.you-seek-title h2{
+    font-size: 48px;
+    line-height: 62px;
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+}
+
+.you-seek-content{
+    margin-bottom: 40px;
+}
+
+.you-seek-title p{
+    font-size: 20px;
+    line-height: 26px;
+    color: #5A5A5A;
+    text-align: center;
+}
+
+.you-seek-content h3{
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.you-seek-content p{
+    font-size: 18px;
+    line-height: 23px;
+    color: #707070;
+}
+
+.you-seek-image img{
+    width: 578px;
+    height: 417px;
+    text-align: center;
+}
+
+.you-seek-content, .you-seek-image{
+    margin-top: 40px;
+}
+
+
+
+/* best-canabis-strain */
+
+.best-canabis-strain{
+    background: #EED8CF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.best-canabis-strain h2{
+    text-align: center;
+    font-size: 48px;
+    line-height: 62px;
+    color: #000;
+    font-weight: 700;
+}
+
+.best-canabis-strain-content{
+    margin-top: 50px;
+}
+
+.best-canabis-strain-content img{
+    width: 306px;
+    height: 211px;
+}
+
+.best-canabis-strain-content h5{
+    padding-top: 20px;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.best-canabis-strain-content p{
+    font-size: 18px;
+    line-height: 23px;
+    color: #707070;
+}
+
+/* Best sellers */
+
+.best-sellers{
+    margin-top: 100px;
+    background: #0C4414;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.best-sellers-content h3{
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.best-sellers-content p{
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.best-sellers-item{
+    margin-top: 80px;
+}
+
+.best-sellers-item h4{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.best-sellers-item p{
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+
+.best-seller-extra button{
+    background: #1E9A2D;
+    border-radius: 6px;
+    padding: 10px 32px;
+    border: none;
+    color: #fff;
+}
+
+.best-content-img img{
+    position: absolute;
+    width: 408px;
+    height: 412px;
+    margin: 0 auto;
+}
+
+/* Get Started */
+
+.get-started{
+    background: #F0F0F0;
+    padding: 85px 75px;
+    margin-top: 110px;
+}
+
+.get-started-content h3{
+    font-size: 38px;
+    line-height: 49px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.get-started-content p{
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.get-started-content button{
+    background: #1E9A2D;
+    border-radius: 6px;
+    padding: 10px 32px;
+    border: none;
+    color: #fff;
+}
+
+.get-started-img img{
+    width: 100%;
+}
+
+/* Pages */
+
+.about-hero{
+    height: 329px;
+    background-image: linear-gradient(
+        to right bottom,
+         rgba(000, 000, 000, 0.0),
+         rgba(000, 000, 000, 0.0)) 
+         ,url(../img/about.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-hero{
+    margin-top: 140px;
+    text-align: center;
+}
+
+.page-hero h1{
+    margin-top: 140px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 49px;
+}
+
+.page-content{
+    margin-top: 58px;
+}
+
+.page-content h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+
+.page-content p{
+    margin-bottom: 31px;
+    font-size: 18px;
+    line-height: 160%;
+    color: #5A5A5A;
+}
+
+.policy-hero{
+    height: 329px;
+    background-image: linear-gradient(
+        to right bottom,
+         rgba(000, 000, 000, 0.0),
+         rgba(000, 000, 000, 0.0)) 
+         ,url(../img/privacy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Footer */
+
+footer{
+    background: rgba(191, 223, 191, 0.15);
+    padding-top: 58px;
+    padding-bottom: 58px;
+    margin-top: 100px;
+}
+
+.footer-links{
+    text-align: left;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #333333;
+    opacity: 0.6;
+    margin-left: 27px;
+}
