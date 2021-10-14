@@ -339,6 +339,76 @@ body{
     background-repeat: no-repeat;
 }
 
+.contact-hero{
+    height: 329px;
+    background-image: linear-gradient(
+        to right bottom,
+         rgba(000, 000, 000, 0.0),
+         rgba(000, 000, 000, 0.0)) 
+         ,url(../img/contact.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.faq-hero{
+    height: 329px;
+    background-image: linear-gradient(
+        to right bottom,
+         rgba(000, 000, 000, 0.0),
+         rgba(000, 000, 000, 0.0)) 
+         ,url(../img/faq.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* contact us */
+
+.contact-section{
+    margin-top: 100px;
+}
+
+.contact-info{
+    background: #F8F8F8;
+    padding: 40px 40px;
+    margin-bottom: 20px;
+}
+
+.contact-btn{
+    background: #1E9A2D;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px 10px;
+    border: none;
+    color: #fff;
+}
+
+
+/* FAQ */
+.page-faq-content{
+    margin-top: 84px;
+    
+}
+
+.page-faq-content h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 32px;
+    color: #0C4414;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer */
