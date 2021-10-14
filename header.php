@@ -35,6 +35,10 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
+			
+		</div><!-- .site-branding -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid" style="padding: 0px 50px;">
 			<?php
 			
 			if ( is_front_page() && is_home() ) :
@@ -51,9 +55,6 @@
 				?>
 				<p class="site-description"><?php echo $highman_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
-		</div><!-- .site-branding -->
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<div class="container-fluid" style="padding: 0px 50px;">
 				<a class="navbar-brand" href="#">
 				the_custom_logo();
 				</a>
@@ -101,5 +102,6 @@
 				)
 			);
 			?>
+
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
