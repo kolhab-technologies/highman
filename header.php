@@ -34,7 +34,24 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'highman' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		
+		<div class="site-branding">
+			<?php
+			
+			if ( is_front_page() && is_home() ) :
+				?>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<?php
+			else :
+				?>
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<?php
+			endif;
+			$highman_description = get_bloginfo( 'description', 'display' );
+			if ( $highman_description || is_customize_preview() ) :
+				?>
+				<p class="site-description"><?php echo $highman_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+			<?php endif; ?>
+		</div><!-- .site-branding -->
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container-fluid" style="padding: 0px 50px;">
 				<a class="navbar-brand" href="#">
@@ -54,7 +71,7 @@
 						</li>
 						
 						<li class="nav-item">
-							<a class="nav-link" href="#">About us</a>
+							<a class="nav-link" href="./about.php">About us</a>
 						</li>
 
 						<li class="nav-item">
