@@ -75,11 +75,16 @@
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link" href="#">Contact us</a>
+							<a class="nav-link" href="./contact.php">Contact us</a>
 						</li>
-
-						<li class="nav-item shopnow-btn">
-							<a class="nav-link" href="#">Shop Nowwww</a>
+						<li class="nav-item">
+							<a class="nav-link" href="./product.php">About us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./policy.php">Privacy Policy</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./terms.php">Terms and Condition</a>
 						</li>
 					</ul>
 				</div>
