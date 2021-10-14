@@ -40,7 +40,7 @@
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container-fluid" style="padding: 0px 50px;">
 			<?php
-			
+			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -56,7 +56,7 @@
 				<p class="site-description"><?php echo $highman_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
 				<a class="navbar-brand" href="#">
-				the_custom_logo();
+				
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
