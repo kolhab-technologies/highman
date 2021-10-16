@@ -16,7 +16,7 @@
           <div class="row">
             <div class="col-md-5">
               <div class="footer-logo">
-                <img src="assets/img/logo.png" alt="">
+                <img src="./assets/img/logo.png" alt="">
               </div>
             </div>
 

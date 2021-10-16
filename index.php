@@ -90,11 +90,11 @@ get_header();
 			<div class="row">
 			<div class="col-md-12">
 				<div class="patners-logo">
-				<img src="assets/img/medmen.png" alt="">
-				<img src="assets/img/d.png" alt="">
-				<img src="assets/img/marley.png" alt="">
-				<img src="assets/img/kica.png" alt="">
-				<img src="assets/img/edison.png" alt="">
+				<img src="./assets/img/medmen.png" alt="">
+				<img src="./assets/img/d.png" alt="">
+				<img src="./assets/img/marley.png" alt="">
+				<img src="./assets/img/kica.png" alt="">
+				<img src="./assets/img/edison.png" alt="">
 				</div>
 			</div>
 			</div>
@@ -134,7 +134,7 @@ get_header();
 				<div class="col-md-7">
 				<div class="you-seek-image">
 					<center>
-					<img src="assets/img/type-of-canabis.png" alt="">
+					<img src="./assets/img/type-of-canabis.png" alt="">
 					</center>
 				</div>
 				</div>
@@ -149,7 +149,7 @@ get_header();
 			<div class="row">
 				<div class="col-md-4">
 				<div class="best-canabis-strain-content">
-					<img src="assets/img/canabis1.png" alt="">
+					<img src="./assets/img/canabis1.png" alt="">
 					<h5>Self-care strain</h5>
 					<p>Level-up your self-care with these strains</p>
 				</div>
@@ -157,7 +157,7 @@ get_header();
 				
 				<div class="col-md-4">
 				<div class="best-canabis-strain-content">
-					<img src="assets/img/canabis2.png" alt="">
+					<img src="./assets/img/canabis2.png" alt="">
 					<h5>Strains for evening workouts</h5>
 					<p>Elevate your nighttime fitness routine</p>
 				</div>
@@ -166,7 +166,7 @@ get_header();
 
 				<div class="col-md-4">
 				<div class="best-canabis-strain-content">
-					<img src="assets/img/canabis3.png" alt="">
+					<img src="./assets/img/canabis3.png" alt="">
 					<h5>Strains for jogging</h5>
 					<p>Strains to boost your morning jog.</p>
 				</div>
@@ -197,7 +197,7 @@ get_header();
 
 			<div class="col-md-7">
 				<div class="best-content-img">
-				<img src="assets/img/best-sells1.png" alt="">
+				<img src="./assets/img/best-sells1.png" alt="">
 				</div>
 			</div>
 
@@ -218,7 +218,7 @@ get_header();
 
 			<div class="col-md-6">
 				<div class="get-started-img">
-				<img src="assets/img/get-started-pack-1.png" alt="">
+				<img src="./assets/img/get-started-pack-1.png" alt="">
 				</div>
 			</div>
 			</div>
@@ -238,7 +238,7 @@ get_header();
 
 			<div class="col-md-6">
 				<div class="get-started-img">
-				<img src="assets/img/get-started-pack-1.png" alt="">
+				<img src="./assets/img/get-started-pack-1.png" alt="">
 				</div>
 			</div>
 			</div>
