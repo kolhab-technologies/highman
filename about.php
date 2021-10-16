@@ -51,7 +51,7 @@ get_header();
 			get_template_part( 'template-parts/content', 'none' );
 		?-->
 
-		<header>
+		  <header>
         <section class="about-hero">
           <div class="container">
             <div class="row">
@@ -65,6 +65,7 @@ get_header();
         </section>
       </header>
 
+      
       <section class="container">
           <div class="row">
               <div class="col-md-1"></div>

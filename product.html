@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid" style="padding: 0px 50px;">
             <a class="navbar-brand" href="#">
-              Logo
+              <img src="assets/img/highman-logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -56,16 +56,14 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
              
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             
+              <div class=" navbar-collapse" id="">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active product-link" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link product-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Categories
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -76,21 +74,452 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Brands</a>
+                    <a class="nav-link product-link" href="#">Brands</a>
                   </li>
                 </ul>
-                <form class="d-flex">
+
+                <div class="product-search-location">
+                  <div class="product-search">
+                    <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M1 6.96558C1 4.02617 3.29919 1.67249 6.09999 1.67249C8.9008 1.67249 11.2 4.02617 11.2 6.96558C11.2 8.40576 10.648 9.70534 9.75561 10.6564C9.73893 10.6689 9.72285 10.6825 9.70748 10.6974C9.68377 10.7203 9.66281 10.745 9.64462 10.7711C8.72456 11.6935 7.47251 12.2587 6.09999 12.2587C3.29919 12.2587 1 9.90499 1 6.96558ZM10.045 11.766C8.98366 12.696 7.6083 13.2587 6.09999 13.2587C2.71522 13.2587 0 10.4251 0 6.96558C0 3.50611 2.71522 0.672485 6.09999 0.672485C9.48477 0.672485 12.2 3.50611 12.2 6.96558C12.2 8.51941 11.6522 9.94698 10.7421 11.0482L13.4595 13.8594C13.6514 14.0579 13.6461 14.3744 13.4475 14.5664C13.249 14.7583 12.9324 14.7529 12.7405 14.5544L10.045 11.766Z" fill="black" fill-opacity="0.5"/>
+                    </svg>
+                    <input type="text" placeholder="Search">
+                      
+                  </div>
+                  <div class="product-location-select">
+                    <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_2:638)">
+                      <path d="M12.25 6.48267C12.25 10.7068 7 14.3275 7 14.3275C7 14.3275 1.75 10.7068 1.75 6.48267C1.75 5.04227 2.30312 3.66086 3.28769 2.64235C4.27226 1.62383 5.60761 1.05164 7 1.05164C8.39239 1.05164 9.72774 1.62383 10.7123 2.64235C11.6969 3.66086 12.25 5.04227 12.25 6.48267Z" stroke="black" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M7 8.29305C7.9665 8.29305 8.75 7.48253 8.75 6.48271C8.75 5.48288 7.9665 4.67236 7 4.67236C6.0335 4.67236 5.25 5.48288 5.25 6.48271C5.25 7.48253 6.0335 8.29305 7 8.29305Z" stroke="black" stroke-opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_2:638">
+                      <rect width="14" height="14.4828" fill="white" transform="translate(0 0.448242)"/>
+                      </clipPath>
+                      </defs>
+                      </svg>                      
+                    <select name="" id="">
+                      <option value="">Set Location</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="product-cart-user-box">
+                  <div class="product-cart">
+                    <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_2:643)">
+                      <path d="M9 23.0835C9.55228 23.0835 10 22.6203 10 22.049C10 21.4777 9.55228 21.0145 9 21.0145C8.44772 21.0145 8 21.4777 8 22.049C8 22.6203 8.44772 23.0835 9 23.0835Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M20 23.0835C20.5523 23.0835 21 22.6203 21 22.049C21 21.4777 20.5523 21.0145 20 21.0145C19.4477 21.0145 19 21.4777 19 22.049C19 22.6203 19.4477 23.0835 20 23.0835Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M1 1.35925H5L7.68 15.211C7.77144 15.6872 8.02191 16.1151 8.38755 16.4196C8.75318 16.724 9.2107 16.8858 9.68 16.8765H19.4C19.8693 16.8858 20.3268 16.724 20.6925 16.4196C21.0581 16.1151 21.3086 15.6872 21.4 15.211L23 6.53167H6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_2:643">
+                      <rect width="24" height="24.8276" fill="white" transform="translate(0 0.324829)"/>
+                      </clipPath>
+                      </defs>
+                      </svg> 
+                      <div class="product-cart-count">2</div>                    
+                  </div>
+
+                  <div class="product-user">
+                    <img src="assets/img/user.png" alt="user">
+                      <h6>John</h6>
+                  </div>
+                </div>
+
+                <!-- <div class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                </div> -->
               </div>
             </div>
           </nav>
 
 
       </header>
-      <!-- Patners logo -->
- 
+      <section class="product-categories">
+        <div class="container">
+          <div class="row">
+            <div class="product-categories-title">
+              <h1>categories</h1>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Flowers</h6>
+                <img src="assets/img/flowers.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Concentrates</h6>
+                <img src="assets/img/concentrates.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Vapes</h6>
+                <img src="assets/img/vapes.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Pre-Rolls</h6>
+                <img src="assets/img/pre-rolls.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Edibles</h6>
+                <img src="assets/img/edibles.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Flowers</h6>
+                <img src="assets/img/flowers.png" alt="">
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <section class="product-layer grey-layer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/marley-product.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Medical Cannabis</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/bliss.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Ananda touch Bliss</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button class="product-btn-sold">Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/hemp-cream.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Hemp seed cream</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/natural-marley.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Natural Marley Sativa</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="product-layer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/marley-product.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Medical Cannabis</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/bliss.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Ananda touch Bliss</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button class="product-btn-sold">Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/hemp-cream.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Hemp seed cream</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/natural-marley.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Natural Marley Sativa</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="product-layer grey-layer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/marley-product.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Medical Cannabis</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/bliss.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Ananda touch Bliss</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button class="product-btn-sold">Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/hemp-cream.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Hemp seed cream</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/natural-marley.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Natural Marley Sativa</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
 
 
       <footer>
