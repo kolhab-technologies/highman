@@ -66,45 +66,383 @@ get_header();
       </header>
 
       
-      <section class="container">
+      <section class="product-categories">
+        <div class="container">
           <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-10">
-                <div class="page-content">
-                    <h2>Highman Technology is the leading technology and software infrastructure provider to the cannabis industry.</h2>
-                    
-                    <p>The company was founded in 2008 with a strong belief in the power of cannabis and the importance of enabling safe, legal access to consumers worldwide. Since then, WM Technology has worked tirelessly, not only to be the most comprehensive platform for consumers, but to build the software solutions that power businesses compliantly in the space, to advocate for legalization, social equity, and licensing in many jurisdictions, and to facilitate further learning through partnering with dozens of subject matter experts on providing detailed, accurate information about the plant.</p>
-                    <p>WM Technology’s mission is to power a transparent and inclusive global cannabis economy. Now in its second decade, 
-                        WM Technology has been a driving force behind much of the legislative change we’ve seen in the past 10 years.</p>
-                    
-                    <h2>Our company</h2>
+            <div class="product-categories-title">
+              <h1>categories</h1>
+            </div>
 
-                    <p>Headquartered in Irvine, California, WM Technology employs more than 400 professionals around the world, including in Denver, Tucson, New York, Barcelona, and Toronto.</p>
-
-                    <p>Given our strong global footprint, deep relationships with participants at all layers of the supply chain, and unparalleled understanding of the policy landscape at the federal, state, and local levels, WM Technology is uniquely positioned to continue its role as the leading technology provider serving the cannabis economy.</p>
-                </div>
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Flowers</h6>
+                <img src="assets/img/flowers.png" alt="">
               </div>
-              <div class="col-md-1"></div>
-          </div>
+            </div>
 
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Concentrates</h6>
+                <img src="assets/img/concentrates.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Vapes</h6>
+                <img src="assets/img/vapes.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Pre-Rolls</h6>
+                <img src="assets/img/pre-rolls.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Edibles</h6>
+                <img src="assets/img/edibles.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-2">
+              <div class="product-categories-box">
+                <p>Shop</p>
+                <h6>Flowers</h6>
+                <img src="assets/img/flowers.png" alt="">
+              </div>
+            </div>
+
+
+          </div>
+        </div>
       </section>
 
-      <section class="container get-started">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="get-started-content">
-              <h3>Let’s get started</h3>
-              <p>Not Sure where to start your CBD journey?
-                Browse our range of customer favourites</p>
+      <section class="product-layer grey-layer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/marley-product.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Medical Cannabis</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
 
-              <button>Shop Now</button>
+              </div>
             </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/bliss.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Ananda touch Bliss</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button class="product-btn-sold">Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/hemp-cream.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Hemp seed cream</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/natural-marley.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Natural Marley Sativa</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
           </div>
+        </div>
+      </section>
 
-          <div class="col-md-6">
-            <div class="get-started-img">
-              <img src="assets/img/get-started-pack-1.png" alt="">
+      <section class="product-layer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/marley-product.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Medical Cannabis</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
             </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/bliss.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Ananda touch Bliss</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button class="product-btn-sold">Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/hemp-cream.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Hemp seed cream</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/natural-marley.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Natural Marley Sativa</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="product-layer grey-layer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/marley-product.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Medical Cannabis</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/bliss.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Ananda touch Bliss</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button class="product-btn-sold">Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="./assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="./assets/img/hemp-cream.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Hemp seed cream</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3">
+              <div class="product-card">
+                <div class="product-card-head">
+                  <img src="assets/img/marley-natural.png" alt="">
+                  <h4>Sale</h4>
+                </div>
+                <div class="product-card-img">
+                  <img src="assets/img/natural-marley.png" alt="">
+                </div>
+                <hr>
+                <div class="product-card-details">
+                  <strong>Natural Marley Sativa</strong>
+                  <h6>$32</h6>
+                </div>
+                <div class="product-card-sub-details">
+                  <span>T.H.C:10%    C.B.D:0%</span>
+                  <span><strike>$50</strike></span>
+                </div>
+                <div class="product-card-btn">
+                  <button>Add to Cart</button>
+                </div>
+
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
